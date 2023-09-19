@@ -1,0 +1,39 @@
+/* Estilo para o card geral da sessão */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Estilo para o card de cada item na sessão */
+.card {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Estilo para o título da sessão */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para o título do item na sessão */
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para a descrição do item na sessão */
+p {
+  font-size: 14px;
+}
+
