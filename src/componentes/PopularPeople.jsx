@@ -25,7 +25,7 @@ const PopularPeople = () => {
         ))}
       </div>
     </div>
-    //`<h2 className="section-title">Pessoas Populares</h2>`: Aqui, estamos criando um cabeçalho `<h2>` com o texto "Pessoas Populares".
+    //`<h2 className="section-title">Pessoas Populares</h2>`: Aqui, criando um cabeçalho `<h2>` com o texto "Pessoas Populares".
     //indica que uma seção está sendo exibida. 3. `<div className="card-container">`: Este é outro `<div>` que funciona como um contêiner para os cartões das pessoas populares. 
     //`{popularPeople.map((person) => (`: Aqui, estamos usando a função `map()` para percorrer o array `popularPeople`. 
     //O `map()` é uma função JavaScript que permite iterar sobre todos os elementos de um array e executar uma operação para cada elemento. Neste caso, vamos percorrer uma lista de pessoas populares
