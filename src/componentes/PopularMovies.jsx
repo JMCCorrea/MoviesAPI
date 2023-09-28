@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'; //Esta linha importa o módulo React e as funções useState e useEffect do React. Essas funções são utilizadas para gerenciar o estado e os efeitos colaterais em componentes funcionais do React.
-import './Popular.css'; //Aqui, você está importando um arquivo CSS chamado "Popular.css" para aplicar estilos ao seu componente. Isso assume que você tem um arquivo CSS com estilos definidos para este componente
+import React, { useState, useEffect } from 'react'; //Esta linha importa o módulo React e as funções useState e useEffect. São usadas  para gerenciar o estado e os efeitos colaterais em componentes funcionais do React.
+import './Popular.css'; // Importa o popular css pra deixar bonitinho. 
 
 const PopularMovies = () => { //Isso define um componente funcional chamado "PopularMovies". Componentes funcionais são uma forma de criar componentes no React.
   const [popularMovies, setPopularMovies] = useState([]); //Esta linha declara uma variável de estado chamada "popularMovies" e uma função "setPopularMovies" para atualizar esse estado. Ela inicia o estado com um array vazio []. O estado será usado para armazenar a lista de filmes populares obtidos da API.
